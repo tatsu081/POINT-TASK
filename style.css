@@ -32,7 +32,7 @@ body {
     color: #fff;
     line-height: 1.6;
     font-weight: 400;
-    font-family: 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'YuGothic', '游ゴシック', 'メイリオ', Meiryo, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif;
+    font-family: 'Lato', 'Hiragino Kaku Gothic ProN', 'YuGothic', '游ゴシック', 'メイリオ', -apple-system, 'Helvetica Neue', sans-serif;
 
     width: 100%;
     font-smoothing: antialiased;
@@ -147,11 +147,10 @@ header{
 
 .header-title{
     font-size: 20px;
-    font-weight: bold;
+    font-weight: 700;
     line-height: 80px;
     letter-spacing: 3px;
     width:200px;
-    font-family: sans-serif;
     text-align: center;
 }
 
@@ -189,8 +188,7 @@ header{
     display: inline-block;
     color: #fff;
     font-size: 14px;
-    font-weight: normal;
-    font-family: sans-serif;
+    font-weight: 400;
 }
 .header nav a::after {
     position: absolute;
@@ -266,7 +264,7 @@ header{
 }
 .item .title {
     font-size:22px;
-    font-family: sans-serif;
+    font-weight: 700;
     letter-spacing:1.5px;
     text-align:center;
     color:#fff;
